@@ -1,0 +1,138 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+  font-family: 'inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.quiz-container{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+}
+
+.quiz-header{
+  padding: 4rem;
+}
+
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label{
+  cursor: pointer;
+}
+
+button{
+  background-color: #03cae4;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+button:hover{
+  background-color: #03cae4;
+}
+
+button:focus{
+  outline: none;
+  background-color: #79f164;
+}
+
+
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  font-size: 1em;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #42b4d6;
+}
+
+main {
+  width: 60%;
+  max-width: 1080px;
+  padding: 1em 0 2em;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.75em;
+  margin-bottom: 0.5em;
+  text-shadow: 0 2px 0 rgba(0,0,0, 0.1);
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 1.5em;
+  font-weight: normal;
+}
+
+main p {
+  font-size: 1.9em;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;  
+}
+li {
+  line-height: 1.25;
+  margin: 0 0 1.1em;
+  color: #42b4d6; 
+  padding: 0.8em;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0,0,0, 0.1);
+}
+
+
+
+
+
+
+ */
